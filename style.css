@@ -1,8 +1,12 @@
+body{
+    background-color: #fcdee0;
+}
 .box-grid{
     display: grid;
-    grid-template-columns: 20% auto;
+    grid-template-columns: 150px 5fr;
     grid-row: 1fr 2fr 1fr;
     gap: 10px;
+    border: 2px solid black;
 }
 img{
     grid-column: 1/2;
@@ -13,12 +17,48 @@ img{
 header{
     grid-column: 2/3;
     grid-row: 1/2;
+    text-align: center;
 }
 nav{
     grid-column: 1/2;
     grid-row: 2/3;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 main{
     grid-column: 2/3;
     grid-row: 2/3;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+footer{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+h3{
+    text-align: center;
+}
+.article{
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.box{
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
